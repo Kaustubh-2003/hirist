@@ -11,7 +11,7 @@ form.addEventListener("submit", function(event) {
     message.textContent = "Login successful!";
 
     setTimeout(function() {
-      window.location.href = "landing-Page.html";
+      window.location.href = "./landing-Page.html";
     }, 1000);
   } else {
     message.textContent = "Login failed. Please try again.";
